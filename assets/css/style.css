@@ -1,0 +1,202 @@
+#Our_Teachers .green_title {
+  text-align: center;
+  width: 100%; }
+
+#leisureTime {
+  background-color: #F0F3F3;
+  height: 560px; }
+  #leisureTime .container-fluid {
+    background-color: #73D5F0;
+    height: 105px; }
+    #leisureTime .container-fluid h2 {
+      padding-top: 35px;
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: normal; }
+    #leisureTime .container-fluid h6 {
+      float: right;
+      padding-top: 35px;
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: normal; }
+  #leisureTime #sliderLeisure {
+    padding-top: 79px;
+    background-color: #F0F3F3; }
+  #leisureTime h2 {
+    margin-top: -2px;
+    margin-bottom: 21px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #leisureTime p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 31px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #leisureTime .btn {
+    width: 117px;
+    height: 44px;
+    border-radius: 1px;
+    background-color: #008C99;
+    color: white; }
+  #leisureTime .btn:hover {
+    background-color: #555555;
+    color: white;
+    transition: 1s; }
+  #leisureTime i {
+    border: 1 px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: #008C99; }
+  #leisureTime #slider {
+    float: right; }
+
+#ourFounder {
+  background-color: #F0F3F3; }
+  #ourFounder .founderImg {
+    width: 116px;
+    height: 108px;
+    background-image: url("../images/founder.jpg");
+    display: flex;
+    -webkit-clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%);
+    clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%); }
+  #ourFounder .founderImg {
+    float: left; }
+  #ourFounder h2, #ourFounder h3 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #ourFounder p {
+    clear: both;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #ourFounder .boxx {
+    float: left;
+    padding-left: 25px; }
+  #ourFounder .col-md-8 p {
+    width: 550px;
+    height: 200px;
+    background-color: #008C99;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+
+#staffs {
+  min-height: 565px;
+  background: #EFF3F4; }
+  #staffs h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    margin-top: 60px; }
+  #staffs .line {
+    display: block;
+    margin: 0 auto; }
+  #staffs .col-md-3 {
+    margin-top: 50px; }
+    #staffs .col-md-3 h4 {
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: bold; }
+    #staffs .col-md-3 span {
+      font-style: italic;
+      margin-top: 25px; }
+    #staffs .col-md-3 p {
+      margin-top: 30px; }
+
+/* the slider */
+.slider {
+  position: relative;
+  /* for positioning slider controls relative to the slider */
+  overflow: hidden;
+  /* hides the content that is out of view */ }
+
+.slider > * {
+  font-size: 0;
+  /* eliminates pesky whitespace issues */ }
+
+.slider .items-wrap {
+  width: 100%;
+  /* fill slider */
+  padding: 0;
+  /* no padding between the wrap and its items */
+  white-space: nowrap;
+  /* elements that overflow will not wrap to new line */
+  /* styling */
+  transition: margin-left 0.2s;
+  /* transition speed when the item wrap is slided */ }
+
+/* making the list item inline-block. Default is block, which causes the list items to take up the whole line, thereby forcing the next element to wrap around */
+.slider .items-wrap .item {
+  display: inline-block; }
+
+.slider .slider-controls .prev-control,
+.slider .slider-controls .next-control {
+  width: 30px;
+  height: 100%;
+  /* fill slider height */
+  position: absolute;
+  cursor: pointer;
+  /* sets the cursor to a hand pointer */
+  z-index: 999;
+  /* making it float above the slider */
+  /* prevents selection of element */
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  -o-user-select: none;
+  /* Opera */
+  user-select: none;
+  /* General */
+  /* for style */
+  opacity: 0.3;
+  transition: opacity 0.5s;
+  /* position the background image */
+  padding: 0 5px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  background-color: white; }
+
+.slider:hover .slider-controls .prev-control,
+.slider:hover .slider-controls .next-control {
+  opacity: 0.6; }
+
+.slider .slider-controls .prev-control:hover,
+.slider .slider-controls .next-control:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s; }
+
+.slider .slider-controls .prev-control:active,
+.slider .slider-controls .next-control:active {
+  opacity: 1; }
+
+.slider .slider-controls .prev-control {
+  top: 0;
+  left: 0;
+  background-image: url("http://cdn.flaticon.com/png/256/48358.png"); }
+
+.slider .slider-controls .next-control {
+  top: 0;
+  right: 0;
+  background-image: url("http://cdn.flaticon.com/png/256/48320.png"); }
+
+.progress-control {
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  background-color: red; }
+
+.item img {
+  margin-right: 20px; }
+
+/*Debug*/
+.slider .items-wrap img {
+  width: 300px;
+  height: 150px; }
+
+/*# sourceMappingURL=style.css.map */

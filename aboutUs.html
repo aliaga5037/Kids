@@ -7,18 +7,162 @@
         <title></title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
     </head>
     <body>
 
+         <script src="assets/js/jquery-3.1.0.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.js"></script>
+        <script src="assets/js/main.js"></script>
+
         <section id="header"></section><!-- aysel -->
-        <section></section><!-- leyla -->
-        <section></section><!-- leyla -->
-        <section></section><!-- leyla -->
+        
+        <section id="leisureTime">
+                <div  class="container-fluid">
+                <div class="col-md-6 col-md-offset-1">
+                    <h2><b>About Us<b></h2>
+                </div>
+                 <div class="col-md-4 ">
+                    <h6><a href="#">Home</a>  >>  About Us</h6>
+                 </div>
+            </div>
+           <div id="sliderLeisure" >   
+                <div  class="col-md-6">
+                    <div id="slider">
+                        <script>
+                            slider()
+                        </script>
+                    </div>
+                </div>
+                    <div class="col-md-5" >
+                        <h2><b>Our Leisure Time<b></h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Lorem Ipsum available, but the majority have suffered alteration in some form. Vivamus adipiscing lobortis sagittis. Nullam tempus mauris dolor, ac malesuada arcu. Praesent dolor quam, tincidunt in sollicitudin sit amet, volutpat sed velit. Nullam non neque ipsum. Nullam tempus mauris dolor, ac malesuada arcu. Praesent dolor quam, tincidunt in sollicitudin sit amet, volutpat sed velit. Nullam non neque ipsum.</p>
+                        <button type="button" class="btn btn-md ">Read More <i class="glyphicon glyphicon-menu-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section><!-- leyla -->
+        <section id="ourFounder">
+            <div class="container">
+                <div class="col-md-6">
+                    <h2>Meet Our Founder</h2>
+                    <div class="founderImg"></div>
+                        <div class="boxx">
+                            <h5><b>James Bond<b></h5>
+                            <h6>Music Trainer, Specialist in <span><a href="#" style="  text-decoration:none;">Classical Music</a></span></h6>
+                            <span><a href="#" style="   text-decoration:none;">25 students</a></span>
+                        </div>
+                    <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus. Sed cursus ipsum vitae justo scelerisque, ac viverra tellus eleifend. Etiam interdum justo nunc, ac volutpat erat elementum id. Fusce dapibus mauris ac dictum porta. Sed pretium luctus elementum. In sollicitudin felis semper purus imperdiet lobortis. In odio tellus, rhoncus eget dolor in,</p>
+                </div>
+                <div class="col-md-6" class="changeText">
+                    <div class="row">
+
+                        <div class="col-md-8 col-md-offset-2">
+                            <h3><b>Some Words from Parents</b></h3>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            specimen book. It has survived not only five centuries.
+
+                    </div>
+                <script type="text/javascript">
+                     commentArr=["Leyla Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, whendistracted by the readable content of a page when looking at its layout. an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.","However, also the leap into electronic typesetting, remaining essentially unchanged. It was populardistracted by the readable content of a page when looking at its layout.ised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and Aldus PageMaker including versions of Lorem Ipsum.","It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.","Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' distracted by the readable content of a page when looking at its layout.will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.","There are many variations of passages of ave suffered alteration mour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."];
+
+                        commentSource=document.getElementsByClassName('col-md-8')[0].getElementsByTagName('p')[0];
+                        commentSource.innerHTML=commentArr[0];
+
+                        count=0;
+
+                        function nextComment() {
+                            count++;
+                            if (count==commentArr.length) {
+                                count=0;
+                            } 
+                            commentSource.innerHTML=commentArr[count];
+                        }
+                        var myInterval=setInterval(nextComment, 3000);
+                </script>
+
+
+                </div>
+
+            </div>
+        </section><!-- leyla -->
+                <section id="staffs" class="col-md-12">
+            <div class="container text-center">
+                <h2>Our Staffs</h2>  
+                <img src="assets/images/gt.png" class="line">
+
+
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <img src="assets/images/team1.jpg" alt="">
+                    <h4>Jack Daniels</h4>
+                    <span>Senior Supervisor</span>
+                    <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <img src="assets/images/team2.jpg" alt="">
+                    <h4>Linda Glendell</h4>
+                    <span>Teaching Professor</span>
+                    <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <img src="assets/images/team3.jpg" alt="">
+                    <h4>Kate Dennings</h4>
+                    <span>Children Diet</span>
+                    <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                    <img src="assets/images/team4.jpg" alt="">
+                    <h4>Kristof Slinghot</h4>
+                    <span>Management</span>
+                    <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                </div> 
+            </div>
+            <div id="sponsorSlide">
+                <div style='width:75%;margin-left: 12%;margin-top: 100px;'>
+  <div class='slider'>
+    <div class='items-wrap'>
+      <div class='item'>
+        <img src='assets/images/client-logo1.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo2.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo3.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo4.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo1.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo2.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo3.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo4.png'>
+      </div>
+      <div class='item'>
+        <img src='assets/images/client-logo1.png'>
+      </div>
+    </div>
+    <div class='slider-controls'>
+      <div class='prev-control'></div>
+      <div class='next-control'></div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section><!-- leyla -->
         <section id="about"></section><!-- aysel -->
         <section id="footer"></section><!-- aysel -->
 
-        <script src="assets/js/jquery-3.1.0.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.js"></script>
-        <script src="assets/js/main.js"></script>
+
+
     </body>
 </html>
