@@ -4,7 +4,8 @@
 
 #primary {
   min-height: 425px;
-  background: #F0F3F3; }
+  background: #F0F3F3;
+  overflow: hidden; }
   #primary .col-md-3 {
     margin-top: 80px; }
     #primary .col-md-3 img {
@@ -150,7 +151,120 @@
         color: black; }
 
 #blog {
-  height: 100px; }
+  background: url("../images/bg2.png") #CF571B 100% 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+  #blog h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    margin-top: 60px;
+    color: white; }
+  #blog .line {
+    display: block;
+    margin: 0 auto; }
+  #blog .col-md-6 {
+    margin-top: 30px; }
+    #blog .col-md-6 .col-md-3 img {
+      border-radius: 100%;
+      height: 55px;
+      background-color: white;
+      border: 3px solid white;
+      padding: 3px;
+      transition: all .4s ease; }
+      #blog .col-md-6 .col-md-3 img:hover {
+        border: 3px solid #A2BC56;
+        cursor: pointer; }
+    #blog .col-md-6 .col-md-3 .date {
+      display: block;
+      width: 120px;
+      height: 39px;
+      background-color: white;
+      float: right;
+      margin-top: 15px;
+      margin-right: -20px; }
+      #blog .col-md-6 .col-md-3 .date:before {
+        content: "";
+        float: left;
+        margin-left: -11px;
+        margin-top: -1px;
+        width: 14px;
+        height: 40px;
+        background: url("../images/arrow.png") left center no-repeat; }
+      #blog .col-md-6 .col-md-3 .date span {
+        display: inline-block;
+        float: left;
+        color: #CF571B;
+        font-size: 26px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 2px; }
+      #blog .col-md-6 .col-md-3 .date p {
+        line-height: 14px;
+        color: #CF571B;
+        font-size: 12px;
+        margin-top: 5px; }
+    #blog .col-md-6 .col-md-3 .comments {
+      width: 70px;
+      display: block; }
+      #blog .col-md-6 .col-md-3 .comments span {
+        font-size: 14px;
+        font-weight: normal;
+        margin: auto;
+        margin-top: 8px;
+        margin-left: 20px; }
+      #blog .col-md-6 .col-md-3 .comments p {
+        margin-top: 10px;
+        margin-right: 10px; }
+    #blog .col-md-6 .col-md-3 .image {
+      width: 50px;
+      display: block;
+      float: right;
+      margin-left: 100px; }
+      #blog .col-md-6 .col-md-3 .image i {
+        margin-top: 10px;
+        color: #CF571B; }
+    #blog .col-md-6 .textAndPhoto img {
+      height: 260px;
+      border: 2px solid white; }
+    #blog .col-md-6 .textAndPhoto a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Bubblegum Sans', cursive;
+      transition: all .4s ease; }
+      #blog .col-md-6 .textAndPhoto a:hover {
+        color: #A2BC56; }
+    #blog .col-md-6 .textAndPhoto p {
+      color: white;
+      font-family: Arial;
+      line-height: 30px;
+      font-size: 16px; }
+    #blog .col-md-6 .textAndPhoto button {
+      margin-top: 20px;
+      width: 110px;
+      height: 45px;
+      border: none;
+      background: white;
+      border-radius: 2px;
+      color: #CF571B;
+      margin-bottom: 80px;
+      transition: all .5s ease; }
+      #blog .col-md-6 .textAndPhoto button:hover {
+        background: #A2BC56;
+        color: white; }
+      #blog .col-md-6 .textAndPhoto button:hover i {
+        background: white;
+        color: #A2BC56; }
+      #blog .col-md-6 .textAndPhoto button i {
+        color: white;
+        border-radius: 100%;
+        color: white;
+        font-size: 9px;
+        padding-top: 1px;
+        padding-left: 2px;
+        width: 11px;
+        height: 11px;
+        background: #CF571B;
+        transition: all .5s ease; }
 
 #staffs {
   min-height: 565px;
@@ -270,5 +384,41 @@
 
   #staffs img {
     margin-left: 0px; } }
+@media screen and (max-width: 500px) {
+  #blog {
+    overflow: hidden; }
+    #blog .col-md-6 {
+      width: 100%;
+      margin: 0 auto; }
+      #blog .col-md-6 .col-md-3 {
+        width: 100%; }
+        #blog .col-md-6 .col-md-3 img {
+          margin: 0 auto; }
+        #blog .col-md-6 .col-md-3 .date {
+          margin: 0;
+          float: none;
+          display: block;
+          margin: 0 auto;
+          margin-top: 20px; }
+          #blog .col-md-6 .col-md-3 .date p {
+            display: inline-block;
+            float: none; }
+          #blog .col-md-6 .col-md-3 .date:after {
+            content: "";
+            width: 14px;
+            height: 39px;
+            background: url("../images/arrow.png");
+            transform: rotate(180deg);
+            float: right;
+            margin-right: -12px;
+            margin-top: 0; }
+        #blog .col-md-6 .col-md-3 .comments:after {
+          margin-top: 0; }
+        #blog .col-md-6 .col-md-3 .image {
+          margin-bottom: 20px; }
+          #blog .col-md-6 .col-md-3 .image:after {
+            margin-top: 0px; }
+      #blog .col-md-6 .textAndPhoto {
+        margin: 0 12%; } }
 
 /*# sourceMappingURL=style.css.map */
