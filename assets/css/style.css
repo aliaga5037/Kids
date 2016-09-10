@@ -1,0 +1,249 @@
+#slider {
+  height: 600px;
+  background: orange; }
+
+#primary {
+  min-height: 425px;
+  background: #F0F3F3; }
+  #primary .col-md-3 {
+    margin-top: 80px; }
+    #primary .col-md-3 img {
+      border-radius: 100%;
+      background: white;
+      border: 2px solid white;
+      padding: 4px;
+      transition: all 1s ease; }
+    #primary .col-md-3 .img {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      text-align: center; }
+    #primary .col-md-3 .circle {
+      opacity: 0;
+      text-align: center;
+      width: 6px;
+      height: 6px;
+      border-radius: 100%;
+      background: #008C99;
+      margin: auto;
+      margin-bottom: 50px;
+      margin-top: -73px;
+      transform: scale(1);
+      transition: all .4s ease; }
+    #primary .col-md-3 i {
+      opacity: 0;
+      color: #008C99;
+      position: relative;
+      top: -70px;
+      background: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      padding-top: 13px;
+      transition: all .5s ease; }
+      #primary .col-md-3 i:hover {
+        color: black;
+        cursor: pointer; }
+    #primary .col-md-3 h4 {
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: bold;
+      transition: all .4s ease; }
+    #primary .col-md-3 p {
+      font-family: 'Lato', sans-serif; }
+
+#slider2 {
+  height: 690px;
+  background: blue; }
+
+#portfolio {
+  min-height: 1100px;
+  background: #F0F3F3;
+  overflow: hidden; }
+  #portfolio h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    margin-top: 60px; }
+  #portfolio .hexa {
+    margin-top: 30px; }
+  #portfolio .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 380px;
+    z-index: 0;
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
+    #portfolio .hexagon img {
+      height: 330px;
+      transition: all .4s ease;
+      overflow: hidden; }
+    #portfolio .hexagon i {
+      opacity: 0;
+      display: block;
+      margin: auto;
+      margin-top: -187px;
+      font-size: 20px;
+      width: 60px;
+      height: 40px;
+      background: white;
+      padding-top: 11px;
+      cursor: pointer;
+      transition: all .4s ease;
+      -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+      clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
+      #portfolio .hexagon i:hover {
+        color: black; }
+  #portfolio .firstCol {
+    margin-top: 165px;
+    margin-right: -95px;
+    margin-left: 100px;
+    display: inline-block;
+    float: left; }
+  #portfolio .secondCol {
+    display: inline-block;
+    float: left; }
+  #portfolio .thirdCol {
+    margin-top: 165px;
+    margin-left: -76px;
+    display: inline-block;
+    float: left; }
+  #portfolio .one {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #portfolio .two {
+    background: #EBBE20;
+    color: #EBBE20; }
+  #portfolio .three {
+    background: #E7C178;
+    color: #E7C178; }
+  #portfolio .four {
+    background: #4391D1;
+    color: #4391D1; }
+  #portfolio .five {
+    background: #74A4C1;
+    color: #74A4C1; }
+  #portfolio .six {
+    background: #E7797F;
+    color: #E7797F; }
+  #portfolio .seven {
+    background: #E77664;
+    color: #E77664; }
+  #portfolio button {
+    width: 180px;
+    height: 50px;
+    background: orange;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: all .5s ease; }
+    #portfolio button i {
+      border-radius: 100%;
+      padding: 2px;
+      background: white;
+      color: #DF9B00;
+      font-size: 10px;
+      transition: all .5s ease; }
+    #portfolio button:hover {
+      background: #434343; }
+      #portfolio button:hover i {
+        color: black; }
+
+#blog {
+  height: 100px; }
+
+#staffs {
+  min-height: 565px;
+  background: #F0F3F3; }
+  #staffs h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    margin-top: 60px; }
+  #staffs .line {
+    display: block;
+    margin: 0 auto; }
+  #staffs .col-md-3 {
+    margin-top: 50px; }
+    #staffs .col-md-3 h4 {
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: bold; }
+    #staffs .col-md-3 span {
+      font-style: italic;
+      margin-top: 25px; }
+    #staffs .col-md-3 p {
+      margin-top: 30px; }
+
+#products {
+  min-height: 680px;
+  background: url("../images/bg.png") #D2D2D2;
+  background-attachment: fixed; }
+  #products h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    margin-top: 60px;
+    color: #5C5C5C; }
+  #products .line {
+    display: block;
+    margin: 0 auto; }
+  #products .col-md-3 {
+    margin-top: 35px; }
+    #products .col-md-3 .margin {
+      margin-left: 0px; }
+      #products .col-md-3 .margin .sale {
+        height: 50px;
+        position: absolute;
+        left: 25px;
+        top: 10px; }
+      #products .col-md-3 .margin .product {
+        width: 100%;
+        float: left;
+        height: 380px;
+        display: block; }
+      #products .col-md-3 .margin .desc {
+        height: 65px;
+        background: white;
+        border-top: 1px solid #F0F3F3;
+        display: block; }
+        #products .col-md-3 .margin .desc h5 {
+          margin-top: 25px; }
+        #products .col-md-3 .margin .desc .name {
+          font-weight: 100;
+          color: #8F9393; }
+        #products .col-md-3 .margin .desc .price {
+          color: #278C99;
+          font-weight: bold; }
+
+@media screen and (max-width: 750px) {
+  #primary .col-md-3 {
+    margin-top: 30px; }
+
+  #portfolio {
+    text-align: center; }
+    #portfolio .hexa {
+      margin-left: -10px;
+      margin-right: 30px; }
+    #portfolio .hexagon {
+      width: 380px;
+      height: 328px;
+      margin-top: 30px; }
+      #portfolio .hexagon img {
+        height: 328px; }
+    #portfolio .firstCol {
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
+      display: inline-block;
+      float: none; }
+    #portfolio .secondCol {
+      display: inline-block;
+      float: none; }
+    #portfolio .thirdCol {
+      margin-top: 0;
+      margin-left: 0;
+      display: inline-block;
+      float: none; }
+
+  #staffs img {
+    margin-left: 0px; } }
+
+/*# sourceMappingURL=style.css.map */
