@@ -37,4 +37,27 @@ $(document).ready(function($) {
 		$(this).find('i').css('opacity', '0');
 	});
 
+
+	// PRODUCTS--------------------------------------
+	var width=$("#products .margin .row").width();
+	$("#products .hover").width(width);
+
+	$(window).resize(function(event) {
+		var width=$("#products .margin .row").width();
+		$("#products .hover").width(width);
+	});
+
+	$("#products .col-md-3")
+	.on('mouseover', function(event) {
+		$(this).find('.hover').css('opacity', '.5')
+		$(this).find('button').css('opacity', '1')
+		$(this).find('.name').css('color', '#27939F');
+	});
+
+	$("#products .col-md-3")
+	.on('mouseleave', function(event) {
+		$(this).find('.hover').css('opacity', '0')
+		$(this).find('button').css('opacity', '0')
+		$(this).find('.name').css('color', '#8F9393');
+	});
 });
