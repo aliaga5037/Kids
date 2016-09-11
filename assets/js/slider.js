@@ -4,34 +4,34 @@ $("#slider")
 	var y=event.pageY;
 
 		if(x++){
-			$(".girl1").css('marginLeft', -x/30);
-			$(".girl2").css('marginLeft', x/25);
-			$(".boy1").css('marginLeft', -x/35);
+			$("#slider .girl1").css('marginLeft', -x/30+'px');
+			$("#slider .girl2").css('marginLeft', x/25+'px');
+			$("#slider .boy1").css('marginLeft', -x/35+'px');
 
-			$(".fun").css('marginLeft', x/40);
-			$(".two").css('marginLeft', x/40);
-			$(".cup").css('marginLeft', x/40);
-			$(".bring").css('marginLeft', -x/60);
-			$(".life").css('marginLeft', -x/60);
-			$(".trendy").css('marginLeft',-x/60);
+			$("#slider .fun").css('marginLeft', x/40+'px');
+			$("#slider .two").css('marginLeft', x/40+'px');
+			$("#slider .cup").css('marginLeft', x/40+'px');
+			$("#slider .bring").css('marginLeft', -x/60+'px');
+			$("#slider .life").css('marginLeft', -x/60+'px');
+			$("#slider .trendy").css('marginLeft',-x/60+'px');
 
-			$(".boy2").css('marginLeft',-x/35);
-			$(".boy3").css('marginLeft',-x/40);
+			$("#slider .boy2").css('marginLeft',-x/35+'px');
+			$("#slider .boy3").css('marginLeft',-x/40+'px');
 		}
 
 		if(y++){
-			$(".girl1").css('marginTop', -y/15);
-			$(".girl2").css('marginTop', y/25);
+			$("#slider .girl1").css('marginTop', -y/15+'px');
+			$("#slider .girl2").css('marginTop', y/25+'px');
 
-			$(".fun").css('marginTop', y/40);
-			$(".two").css('marginTop', y/40);
-			$(".cup").css('marginTop', y/40);
-			$(".bring").css('marginTop', -y/60);
-			$(".life").css('marginTop', -y/60);
-			$(".trendy").css('marginTop',-y/60);
+			$("#slider .fun").css('marginTop', y/40+'px');
+			$("#slider .two").css('marginTop', y/40+'px');
+			$("#slider .cup").css('marginTop', y/40+'px');
+			$("#slider .bring").css('marginTop', -y/60+'px');
+			$("#slider .life").css('marginTop', -y/60+'px');
+			$("#slider .trendy").css('marginTop',-y/60+'px');
 
-			$(".boy2").css('marginTop',-y/35);
-			$(".boy3").css('marginTop',-y/40);
+			$("#slider .boy2").css('marginTop',-y/35+'px');
+			$("#slider .boy3").css('marginTop',-y/40+'px');
 		}
 		
 });
