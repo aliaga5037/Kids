@@ -14,11 +14,11 @@ $blue:#008C99;
 #slider{
 	height:600px;
 	overflow:hidden;
-	background:url("../images/slider/bg.jpg");
 	img{
 		float: left;
 		position:absolute;
 	}
+	// FRAME1
 	.grass{
 		width: 100%;
 		height: 200px;
@@ -69,6 +69,157 @@ $blue:#008C99;
 	}
 	.boy3{
 		left: 60%;
+	}
+
+	.circleSet{
+		position:absolute;
+		bottom:50px;
+		left: 48%;
+		.circle{
+			width: 10px;
+			height: 10px;
+			border:2px solid white;
+			display: inline-block;
+			border-radius:100%;
+		}
+		.space{
+			margin-left:10px;
+		}
+		.first{
+			background:gray;
+		}
+
+	}
+
+	// FRAME2
+	.schoolKid{
+		top:30px;
+		right:140px;
+	}
+	.cloud{
+		top:5%;
+		left: 80%;
+	}
+	.cloud2{
+		top:10%;
+		left: 55%;
+	}
+	.comment{
+		top:11%;
+		left: 8%;
+	}
+	.welcome{
+		left: 12%;
+		top:20%;
+	}
+	.textDesc{
+		top:35%;
+		left: 12%;
+	}
+	.purchase{
+		left: 12%;
+		top:65%;
+	}
+	.chalk{
+		top:69%;
+		left: 12%;
+	}
+	.bulb{
+		top:78%;
+		left: 8%;
+	}
+	.glass{
+		left: 50%;
+		top:78%;
+	}
+	.game{
+		top:5%;
+		left: 5%;
+	}
+
+	// FRAME3
+	.bg3{
+		width: 6000px;
+		height:100%;
+	}
+	.cs{
+		left: 90%;
+		top:5%;
+	}
+	.star{
+		left: 92%;
+		top:30%;
+	}
+	.cs2{
+		left: 88%;
+		top:45%;
+	}
+	.csa1{
+		left: 87.5%;
+		top:70%;
+	}
+	.csa2{
+		left: 90%;
+		top:80%;
+	}
+	.boom{
+		left: 60%;
+		top:10%;
+	}
+	.parallax{
+		left: 74%;
+		top:49%;
+	}
+	.ag{
+		left:62%;
+		top:47%;
+	}
+	.mm{
+		left: 76%;
+		top:70%;
+	}
+	.csa3{
+		left: 76%;
+		top:93%;
+	}
+	.cd{
+		left: 62%;
+		top:68%;
+	}
+	.csa4{
+		left: 62%;
+		top:70%;
+	}
+	.cs3{
+		left: 58%;
+		top:90%;
+	}
+	.cs4{
+		left: 56%;
+		top:15%;
+	}
+	.swirl4{
+		left: 45%;
+		top:7%;
+	}
+	.apple{
+		left: 5%;
+		top:70%;
+	}
+	.cap{
+		left: -2%;
+		top:50%;
+	}
+	.swirl2{
+		top:30%;
+		left: 6%;
+	}
+	.swirl3{
+		top:15%;
+		left: 4%;
+	}
+	.a{
+		left: 7%;
 	}
 
 }

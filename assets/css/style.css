@@ -7,8 +7,7 @@
 
 #slider {
   height: 600px;
-  overflow: hidden;
-  background: url("../images/slider/bg.jpg"); }
+  overflow: hidden; }
   #slider img {
     float: left;
     position: absolute; }
@@ -48,6 +47,115 @@
     left: 80%; }
   #slider .boy3 {
     left: 60%; }
+  #slider .circleSet {
+    position: absolute;
+    bottom: 50px;
+    left: 48%; }
+    #slider .circleSet .circle {
+      width: 10px;
+      height: 10px;
+      border: 2px solid white;
+      display: inline-block;
+      border-radius: 100%; }
+    #slider .circleSet .space {
+      margin-left: 10px; }
+    #slider .circleSet .first {
+      background: gray; }
+  #slider .schoolKid {
+    top: 30px;
+    right: 140px; }
+  #slider .cloud {
+    top: 5%;
+    left: 80%; }
+  #slider .cloud2 {
+    top: 10%;
+    left: 55%; }
+  #slider .comment {
+    top: 11%;
+    left: 8%; }
+  #slider .welcome {
+    left: 12%;
+    top: 20%; }
+  #slider .textDesc {
+    top: 35%;
+    left: 12%; }
+  #slider .purchase {
+    left: 12%;
+    top: 65%; }
+  #slider .chalk {
+    top: 69%;
+    left: 12%; }
+  #slider .bulb {
+    top: 78%;
+    left: 8%; }
+  #slider .glass {
+    left: 50%;
+    top: 78%; }
+  #slider .game {
+    top: 5%;
+    left: 5%; }
+  #slider .bg3 {
+    width: 6000px;
+    height: 100%; }
+  #slider .cs {
+    left: 90%;
+    top: 5%; }
+  #slider .star {
+    left: 92%;
+    top: 30%; }
+  #slider .cs2 {
+    left: 88%;
+    top: 45%; }
+  #slider .csa1 {
+    left: 87.5%;
+    top: 70%; }
+  #slider .csa2 {
+    left: 90%;
+    top: 80%; }
+  #slider .boom {
+    left: 60%;
+    top: 10%; }
+  #slider .parallax {
+    left: 74%;
+    top: 49%; }
+  #slider .ag {
+    left: 62%;
+    top: 47%; }
+  #slider .mm {
+    left: 76%;
+    top: 70%; }
+  #slider .csa3 {
+    left: 76%;
+    top: 93%; }
+  #slider .cd {
+    left: 62%;
+    top: 68%; }
+  #slider .csa4 {
+    left: 62%;
+    top: 70%; }
+  #slider .cs3 {
+    left: 58%;
+    top: 90%; }
+  #slider .cs4 {
+    left: 56%;
+    top: 15%; }
+  #slider .swirl4 {
+    left: 45%;
+    top: 7%; }
+  #slider .apple {
+    left: 5%;
+    top: 70%; }
+  #slider .cap {
+    left: -2%;
+    top: 50%; }
+  #slider .swirl2 {
+    top: 30%;
+    left: 6%; }
+  #slider .swirl3 {
+    top: 15%;
+    left: 4%; }
+  #slider .a {
+    left: 7%; }
 
 #primary {
   min-height: 425px;
