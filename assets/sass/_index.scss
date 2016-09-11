@@ -6,6 +6,25 @@ $blue:#008C99;
 	background:$blue;
 	color:white;
 }
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555; }
+
+ .top{
+ 	position:fixed;
+ 	bottom:15px;
+ 	right: 15px;
+ }
 // --------------------------HEADER=============================
 #header{
 	height:100px;
@@ -285,8 +304,88 @@ $blue:#008C99;
 }
 // --------------------------SLIDER2=============================
 #slider2{
-	height:690px;
-	background:blue;
+	background:url("../images/bg2.png") $blue;
+	background-attachment:fixed;
+	.col-md-6{
+		h2{
+			color:white;
+			font-weight: bold;
+			font-family: 'Bubblegum Sans', cursive;
+			font-size:28px;
+			margin-top:30px;
+		}
+		ul{
+			margin:2px;
+			padding:0;
+			li{
+				list-style-type:none;
+				margin-top: 20px;
+				&:hover{
+					i{
+						border:3px solid #80C6CC;
+					}
+					.heading{
+						color:#FFC907;
+					}
+				}		
+				i{
+					display: inline-block;
+					border-radius:100%;
+					border:3px solid white;
+					text-align: center;
+					padding-top:10px;
+					background-color:white;
+					width: 45px;
+					height:45px;
+					color:#5C5C5C;
+					float: left;
+					font-size:20px;
+					transition: all .4s ease;
+				}
+				.heading{
+					display: inline-block;
+					font-size:20px;
+					color:white;
+					font-family: 'Bubblegum Sans', cursive;
+					font-weight: bold;
+					float: left;
+					margin-top: 10px;
+					margin-left:15px;
+					transition: all .4s ease;
+				}
+				.text{
+					color:white;
+					display: block;
+					float: right;
+					font-family: 'Lato', sans-serif;
+					font-size: 14px;
+				}
+			}
+		}
+		.tablet{
+			margin-top: 20px;
+			overflow: hidden;
+			height: 438px;
+			background:url("../images/tablet.png") no-repeat;
+			padding:8% 9% 0px 8.8%;
+			background-size:contain;
+		}
+		.circle{
+			width: 20px;
+			height: 20px;
+			border-radius:100%;
+			background:white;
+			display: inline-block;
+			margin-top: 20px;
+			margin-left: 10px;
+			transition: all .5s ease;
+			margin-bottom:85px;
+			&:hover{
+				background-color:#015057;
+				cursor: pointer;
+			}
+		}
+	}
 }
 // --------------------------PORTFOLIO=============================
 #portfolio{
@@ -475,16 +574,24 @@ $blue:#008C99;
 			.comments{
 				width: 70px;
 				display: block;
+
+				&:hover{
+					span,p{
+						color:#434343;
+					}
+				}
 				span{
 					font-size:14px;
 					font-weight: normal;
 					margin:auto;
 					margin-top: 8px;
 					margin-left:20px;
+					transition: all .2s ease;
 				}
 				p{
 					margin-top: 10px;
 					margin-right: 10px;
+					transition: all .2s ease;
 				}
 			}
 			.image{
@@ -492,9 +599,15 @@ $blue:#008C99;
 				display: block;
 				float: right;
 				margin-left:100px;
+				&:hover{
+					i{
+						color:#434343;
+					}
+				}
 				i{
 					margin-top: 10px;
 					color:#CF571B;
+					transition: all .2s ease;
 				}
 			}
 		}
@@ -666,7 +779,15 @@ $blue:#008C99;
 	}
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:1150px){
+	#slider{
+		.child{
+			height:200px;
+		}
+		.tekst{
+			height:30px;
+		}
+	}
 	#primary{
 		.col-md-3{
 			margin-top: 30px;
@@ -676,15 +797,16 @@ $blue:#008C99;
 	#portfolio{
 		text-align: center;
 		.hexa{
-			margin-left: -10px;
-			margin-right: 30px;
+			margin-left:0px;
+			margin-right:0px;
 		}
 		.hexagon{
-			width: 380px;
-			height: 328px;
+			width: 250px;
+			height: 210px;
 			margin-top: 30px;
+
 			img{
-				height: 328px;
+				height: 210px;
 			}
 		}
 		.firstCol{
@@ -709,6 +831,18 @@ $blue:#008C99;
 	#staffs{
 		img{
 			margin-left:0px;
+		}
+	}
+	#slider2{
+		h2{
+			font-size:24px;
+		}
+		.tablet{
+			height:340px;
+		}
+		.circleSet{
+			margin-top: -150px;
+			margin-bottom: 0;
 		}
 	}
 }

@@ -60,4 +60,36 @@ $(document).ready(function($) {
 		$(this).find('button').css('opacity', '0')
 		$(this).find('.name').css('color', '#8F9393');
 	});
+
+	// SLIDER2--------------------------------------
+	img=['assets/images/add1.jpg','assets/images/add2.jpg','assets/images/add1.jpg']
+
+	$("#slider2 .one")
+	.on('click',function(event) {
+		$("#slider2 .tablet img").attr('src', img[0]);
+	});
+	$("#slider2 .two")
+	.on('click',function(event) {
+		$("#slider2 .tablet img").attr('src', img[1]);
+	});
+	$("#slider2 .three")
+	.on('click',function(event) {
+		$("#slider2 .tablet img").attr('src', img[2]);
+	});
+
+	// TOP-----------------------------------------------
+	$(".top").hide(400);
+	$(".top")
+	.on('click',function(event) {
+		$("html,body")
+		.animate({scrollTop:0}, 600);
+	});
+	$(window).scroll(function(event) {
+		var x=$(window).scrollTop();
+		if (x<500) {
+			$(".top").hide(400);
+		}else{
+			$(".top").show(400);
+		}
+	});
 });
