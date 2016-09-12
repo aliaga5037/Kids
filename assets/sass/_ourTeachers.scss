@@ -1,8 +1,14 @@
 
-#staffs{
-	min-height:565px;
-	background:#EFF3F4;
-	h2{
+#staffHexa {
+   background:#EFF3F4;
+   min-height:565px;
+   h4:hover{
+   	color:#008C99;
+   }
+   h6:hover{
+   	color:#008C99;
+   }
+h2{
 		font-family: 'Bubblegum Sans', cursive;
 		font-weight: bold;
 		margin-top: 60px;
@@ -11,23 +17,86 @@
 		display: block;
 		margin:0 auto;
 	}
+.hexa {
+    margin-top: 30px;
+ }
+.hexagon {
+    height: 259px;
+    overflow: hidden;
+    width: 287px;
+    z-index: 0;
+-webkit-clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
+clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
+  }
+  .hexagon img {
+      height: 300px;
+      width: 100%;
+      transition: all .4s ease;
+      overflow: hidden; 
+    }
+    .hexagon i {
+      opacity: 0;
+      display: block;
+      margin: auto;
+      margin-top: -187px;
+      font-size: 40px;
+      width: 70px;
+      height: 60px;
+      background: white;
+      padding-top: 14px;
+      cursor: pointer;
+      transition: all .4s ease;
+-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+    .hexagon i:hover {
+        color: black; 
+      }
 
-	.col-md-3{
-		margin-top: 50px;
-		h4{
-			font-family: 'Bubblegum Sans', cursive;
-			font-weight: bold;
-		}
-		span{
-			font-style: italic;
-			margin-top: 25px;
-		}
-		p{
-			margin-top: 30px;
-		}
-		
-	}
-	#sponsorSlide{
-
-	}
+      .firstCol { 
+display: inline-block;
+   float: left;
+   position: absolute;
+   left: 50px;
 }
+.onetwoCol {
+display: inline-block;
+   float: left;
+   position: absolute;
+   right: 680px;
+   top: 149px;
+  }
+ .secondCol {
+display: inline-block;
+   float: left;
+   position: absolute;
+   right: 355px;
+   top: 149px;
+  }
+  .thirdCol { 
+ display: inline-block;
+ float:right;
+ position:absolute;
+ top:150px;
+ right:30px;
+
+
+
+}
+  .one {
+    background: red;
+    color: #F2A5BC; 
+  }
+  .through{
+  	background-color:yellow;
+  	color: #F2A5BC; 
+  }
+  .two {
+    background: #F2A5BC;
+    color: #F2A5BC; 
+  }
+    .three {
+    background: #9692C6;
+    color: #F2A5BC; 
+  }
+  }

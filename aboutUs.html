@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="assets/awesome/css/font-awesome.css">
     </head>
     <body>
         <script src="assets/js/jquery-3.1.0.js"></script>
@@ -77,54 +78,108 @@
                         </div>
                     </div>
                     </section><!-- leyla -->
-                    <section id="staffs" class="col-md-12">
+                    <section id="staffHexa" class="col-md-12">
                         <div class="container text-center">
                             <h2>Our teachers</h2>
-                            <img src="assets/images/gt.png" class="line">
-                            <div class="col-md-3 col-xs-12 col-sm-12">
-                                <img src="assets/images/team1.jpg" alt="">
-                                <h4>Jack Daniels</h4>
-                                <span>Senior Supervisor</span>
-                                <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                            <img src="assets/images/green_title_bg.png">
+                            <div class="container ">
+                                <div class="container text-center">
+                                    <div class="hexa">
+                                        <div class="firstCol ">
+                                            <div class="hexagon one ">
+                                                <img src="assets/images/team1.jpg">
+                                                <i class="fa fa-link"></i>
+                                            </div>
+                                            <h4>Jack Daniels</h4>
+                                            <h6>Senior Supervisor</h6>
+                                            <p>Phasellus lorem augue, <br>
+                                            vulputate vel orci id, ultricies aliquet risus.</p>
+                                        </div>
+                                    </div>
+                                </div>      
+                                
+                                
                             </div>
-                            <div class="col-md-3 col-xs-12 col-sm-12">
-                                <img src="assets/images/team2.jpg" alt="">
-                                <h4>Linda Glendell</h4>
-                                <span>Teaching Professor</span>
-                                <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                                <div class="container text-center">
+                                    <div class="hexa">
+                                        <div class="onetwoCol">
+                                            <div class="hexagon through ">
+                                                <img src="assets/images/team2.jpg">
+                                                <i class="fa fa-link"></i>     
+                                            </div>
+                                            <h4>Jack Daniels</h4>
+                                            <h6>Senior Supervisor</h6>
+                                            <p>Phasellus lorem augue, <br>
+                                            vulputate vel orci id, ultricies aliquet risus.</p>   
+                                        </div>
+                                    </div>    
+                                </div> 
                             </div>
-                            <div class="col-md-3 col-xs-12 col-sm-12">
-                                <img src="assets/images/team3.jpg" alt="">
-                                <h4>Kate Dennings</h4>
-                                <span>Children Diet</span>
-                                <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
-                            </div>
-                            <div class="col-md-3 col-xs-12 col-sm-12">
-                                <img src="assets/images/team4.jpg" alt="">
-                                <h4>Kristof Slinghot</h4>
-                                <span>Management</span>
-                                <p>Phasellus lorem augue, vulputate vel orci id, ultricies aliquet risus.</p>
+                                <div class="container text-center ">
+                                                <div class="hexa">
+                                                    <div class="secondCol  ">
+                                                        <div class="hexagon two ">
+                                                            <img src="assets/images/team3.jpg">
+                                                            <i class="fa fa-link"></i>     
+                                                        </div>
+                                                        <h4>Jack Daniels</h4>
+                                            <h6>Senior Supervisor</h6>
+                                            <p>Phasellus lorem augue, <br>
+                                            vulputate vel orci id, ultricies aliquet risus.</p>
+                                                    </div>
+                                                </div>    
+                                            </div>
+                                        </div>
+                                    </div>
+                                            <div class="container ">
+                                                <div class="container text-center ">
+                                                <div class="hexa">
+                                                    <div class="thirdCol  ">
+                                                        <div class="hexagon three">
+                                                            <img src="assets/images/team4.jpg">
+                                                            <i class="fa fa-link"></i>     
+                                                        </div>
+                                                        <h4>Jack Daniels</h4>
+                                            <h6>Senior Supervisor</h6>
+                                            <p>Phasellus lorem augue, <br>
+                                            vulputate vel orci id, ultricies aliquet risus.</p>
+                                                    </div>
+                                                </div>    
+                                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             </section><!-- leyla -->
+                        <script type="text/javascript">
+                                $("#staffHexa .hexagon")
+                                    .on('mouseover',function(event) {
+                                        $(this).find('img').css('opacity', '.3')
+                                        $(this).find('i').css('opacity', '1');
+                                        
+                                    });
+                                    $("#staffHexa .hexagon")
+                                    .on('mouseleave',function(event) {
+                                        $(this).find('img').css('opacity', '1')
+                                        $(this).find('i').css('opacity', '0');
+
+                                    });
+                        </script>
+
             <marquee  id="sponsors" behavior="scroll" direction="right" style="float:left;">
-             </marquee></div>
-
-             <script type="text/javascript">
-                 var sponsor = ["<img src='assets/images/client-logo1.png'</img>","<img src='assets/images/client-logo2.png'</img>", "<img src='assets/images/client-logo3.png'</img>", 
-                 "<img src='assets/images/client-logo4.png'</img>","<img src='assets/images/client-logo1.png'</img>", "<img src='assets/images/client-logo2.png'</img>"];
-                    var img = "";
-                    var i;
-                    for (i = 0; i < sponsor.length; i++) {
-                        img += sponsor[i] +"  ";
-
-                    }
-                    document.getElementById("sponsors").innerHTML = img;
-             </script>
-            <section id="about"></section><!-- aysel -->
-            <section id="footer"></section><!-- aysel -->
-        </body>
-    </html>
+        </marquee></div>
+        <script type="text/javascript">
+        var sponsor = ["<img src='assets/images/client-logo1.png'</img>","<img src='assets/images/client-logo2.png'</img>", "<img src='assets/images/client-logo3.png'</img>",
+        "<img src='assets/images/client-logo4.png'</img>","<img src='assets/images/client-logo1.png'</img>", "<img src='assets/images/client-logo2.png'</img>"];
+        var img = "";
+        var i;
+        for (i = 0; i < sponsor.length; i++) {
+        img += sponsor[i] +"  ";
+        }
+        document.getElementById("sponsors").innerHTML = img;
+        </script>
+        <section id="about"></section><!-- aysel -->
+        <section id="footer"></section><!-- aysel -->
+    </body>
+</html>

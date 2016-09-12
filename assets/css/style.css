@@ -1,23 +1,82 @@
-#staffs {
-  min-height: 565px;
-  background: #EFF3F4; }
-  #staffs h2 {
+#staffHexa {
+  background: #EFF3F4;
+  min-height: 565px; }
+  #staffHexa h4:hover {
+    color: #008C99; }
+  #staffHexa h6:hover {
+    color: #008C99; }
+  #staffHexa h2 {
     font-family: 'Bubblegum Sans', cursive;
     font-weight: bold;
     margin-top: 60px; }
-  #staffs .line {
+  #staffHexa .line {
     display: block;
     margin: 0 auto; }
-  #staffs .col-md-3 {
-    margin-top: 50px; }
-    #staffs .col-md-3 h4 {
-      font-family: 'Bubblegum Sans', cursive;
-      font-weight: bold; }
-    #staffs .col-md-3 span {
-      font-style: italic;
-      margin-top: 25px; }
-    #staffs .col-md-3 p {
-      margin-top: 30px; }
+  #staffHexa .hexa {
+    margin-top: 30px; }
+  #staffHexa .hexagon {
+    height: 259px;
+    overflow: hidden;
+    width: 287px;
+    z-index: 0;
+    -webkit-clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
+    clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%); }
+  #staffHexa .hexagon img {
+    height: 300px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #staffHexa .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  #staffHexa .hexagon i:hover {
+    color: black; }
+  #staffHexa .firstCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 50px; }
+  #staffHexa .onetwoCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 680px;
+    top: 149px; }
+  #staffHexa .secondCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 355px;
+    top: 149px; }
+  #staffHexa .thirdCol {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 30px; }
+  #staffHexa .one {
+    background: red;
+    color: #F2A5BC; }
+  #staffHexa .through {
+    background-color: yellow;
+    color: #F2A5BC; }
+  #staffHexa .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #staffHexa .three {
+    background: #9692C6;
+    color: #F2A5BC; }
 
 #leisureTime {
   background-image: url("../images/header_bg.png");
