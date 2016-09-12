@@ -1,0 +1,72 @@
+#Fun {
+    background-image: url('../images/footer_bg.png');
+
+.hexa {
+    margin-top: 30px;
+ }
+.hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+-webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  }
+  .hexagon img {
+      height: 330px;
+      width: 100%;
+      transition: all .4s ease;
+      overflow: hidden; 
+    }
+    .hexagon i {
+      opacity: 0;
+      display: block;
+      margin: auto;
+      margin-top: -187px;
+      font-size: 40px;
+      width: 70px;
+      height: 60px;
+      background: white;
+      padding-top: 14px;
+      cursor: pointer;
+      transition: all .4s ease;
+-webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    }
+    .hexagon i:hover {
+        color: black; 
+      }
+
+      .firstCol { 
+display: inline-block;
+   float: left;
+   margin-top: 50px;
+  }
+ .secondCol {
+display: inline-block;
+   float: right;
+   margin-top: -396px;
+
+
+  }
+        .thirdCol { 
+ display: inline-block;
+ float:left;
+ margin-left: 440px;
+ margin-top:-430px;
+
+
+}
+  .one {
+    background: red;
+    color: #F2A5BC; 
+  }
+  .two {
+    background: #F2A5BC;
+    color: #F2A5BC; 
+  }
+    .three {
+    background: #9692C6;
+    color: #F2A5BC; 
+  }
+  }

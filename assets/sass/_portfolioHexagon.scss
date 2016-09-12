@@ -1,3 +1,5 @@
+@import "fun.scss";
+@import "Arts1.scss";
 #PortfolioFour{
   .container-fluid {
 background-color: #73D5F0;
@@ -16,185 +18,39 @@ font-weight: normal;
 
 }
 }
-#portfolioHexa {
-  min-height: 1100px;
-  background: #F0F3F3;
-  overflow: hidden; 
-  background-image: url('../images/footer_bg.png');
-
-.hexa {
-    margin-top: 30px;
- }
-.hexagon {
-    height: 330px;
-    overflow: hidden;
-    width: 330px;
-    z-index: 0;
--webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-  }
-  .hexagon img {
-      height: 330px;
-      width: 100%;
-      transition: all .4s ease;
-      overflow: hidden; 
-    }
-    .hexagon i {
-      opacity: 0;
-      display: block;
-      margin: auto;
-      margin-top: -187px;
-      font-size: 40px;
-      width: 70px;
-      height: 60px;
-      background: white;
-      padding-top: 14px;
-      cursor: pointer;
-      transition: all .4s ease;
--webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    }
-    .hexagon i:hover {
-        color: black; 
-      }
-
-      .firstCol { 
-display: inline-block;
-   float: left;
-  }
-          .onetwoCol {
-display: inline-block;
-   float: left;
-   margin-top: -400px;
-   position: absolute;
-   right:500px;
 
   
-
-
-  }
-        .secondCol {
-display: inline-block;
-   float: right;
-   margin-top: -430px;
-
-
-  }
-        .thirdCol { 
- display: inline-block;
- float:right;
- margin-top:12px;
-
-}
-.threefourCol{
-  display: inline-block;
-   float: left;
  
-   position:absolute;
-   right: 500px;
-   top: 520px;
-
-
-  }
-        .fourthCol {
- display: inline-block;
- float:left;
- margin-top:-397px;
-  }
-        .fifthCol { 
- display: inline-block;
- float:right;
- margin-top:15px;
-
-  }
-  .fivesixCol{
-  display: inline-block;
-   float: left;
-
-   position:absolute;
-   right: 500px;
-   top: 990px;
-
-
-  }
-        .sixthCol {
- display: inline-block;
- float:left;
-  margin-top:-400px;
-  }
-       .seventhCol {
- display: inline-block;
- float:left;
- margin-top:20px;
-  }
-    .seveneightCol{
-  display: inline-block;
-   float: left;
-
-   position:absolute;
-   right: 500px;
-   top: 1460px;
-
-
-  }
-         .eightCol {
- display: inline-block;
- float:right;
- margin-top:-400px;
-  }
-
-  .one {
-    background: red;
-    color: #F2A5BC; 
-  }
-  .through{
-    background: blue;
-    color: #F2A5BC; 
-  }
-    .two {
-    background: #F2A5BC;
-    color: #F2A5BC; 
-  }
-    .three {
-    background: #9692C6;
-    color: #F2A5BC; 
-  }
-    .through2{
-    background: yellow;
-    color: #F2A5BC; 
-  }
-    .four {
-    background: #D492C6;
-    color: #F2A5BC; 
-  }
-     .five {
-    background: red;
-    color: #F2A5BC; 
-  }
-      .through3{
-    background: orange;
-    color: #F2A5BC; 
-  }
-    .six {
-    background: #FF7C0D;
-    color: #F2A5BC; 
-  }
-    .seven {
-    background: #33DC73;
-    color: #F2A5BC; 
-  }
-        .through4{
-    background: orange;
-    color: #F2A5BC; 
-  }
-
-    .eight {
-    background: purple;
-    color: #F2A5BC; 
-  }
-  }
-  
-
+// ----------------------------------------------------------------------------------------------------------------buttons
+#HexagonToggle{
+   background-image: url('../images/footer_bg.png');
+   background-color:#F0F3F3;
+   height: 90px;
+   .button1{
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+background-color:orange;
+box-shadow:0px 10px 5px #888888;
+   }
+      .button2{
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+background-color:red;
+box-shadow:0px 10px 5px #888888;
+   }
+         .button3{
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+background-color:green;
+box-shadow:0px 10px 5px #888888;
+   }
+}
    
       
      

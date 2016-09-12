@@ -15,7 +15,7 @@
         <script src="assets/js/main.js"></script>
         
         <section id="header"></section><!-- aysel -->
-        <section id="PortfolioFour">
+        <section id="PortfolioFour" >
             <div  class="container-fluid">
                 <div class="col-md-6 col-md-offset-1">
                     <h2><b>Portfolio Four Column<b></h2>
@@ -25,6 +25,14 @@
                 </div>
             </div>
         </section>
+        <section id="HexagonToggle">
+            <div class="col-md-6 col-md-offset-3" >
+                <button class="button1">All</button>
+                <button class="button2">Arts(1)</button>
+                <button class="button3">Fun(3)</button>
+            </div>
+        </section>
+        
         <section id="portfolioHexa" class="col-md-12">
             <div class="container ">
                 <div class="container text-center">
@@ -169,6 +177,78 @@
             </div> 
             </div>
         </section><!-- leyla -->
+        <section id="Arts1">
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="firstCol">
+                        <div class="hexagon one ">
+                            <img src="assets/images/cartoon7.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+        </section>
+        <!-- ================================fun=================================================== -->
+                <section id="Fun">
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="firstCol">
+                        <div class="hexagon one ">
+                            <img src="assets/images/cartoon8.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+                        <div class="container text-center">
+                <div class="hexa">
+                    <div class="secondCol">
+                        <div class="hexagon two ">
+                            <img src="assets/images/cartoon4.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+                        <div class="container text-center">
+                <div class="hexa">
+                    <div class="thirdCol">
+                        <div class="hexagon three ">
+                            <img src="assets/images/cartoon6.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+        </section>
+<script>
+    $(document).ready(function(){
+    $("#portfolioHexa").show();
+    $("#Arts1").hide();
+    $("#Fun").hide();
+
+        $(".button1").click(function(){
+            $("#portfolioHexa").show();
+            $("#Arts1").hide();
+            $("#Fun").hide();
+        })
+     $(".button2").click(function(){
+            $("#portfolioHexa").hide();
+            $("#Arts1").show();
+        })
+     $(".button3").click(function(){
+            $("#portfolioHexa").hide();
+            $("#Arts1").hide();
+            $("#Fun").show();
+        })
+    });
+</script>
+
                         <script type="text/javascript">
                                 $("#portfolioHexa .hexagon")
                                     .on('mouseover',function(event) {
@@ -181,7 +261,30 @@
                                         $(this).find('i').css('opacity', '0');
                                     });
                         </script>
-
+                        <script type="text/javascript">
+                                $("#Arts1 .hexagon")
+                                    .on('mouseover',function(event) {
+                                        $(this).find('img').css('opacity', '.3')
+                                        $(this).find('i').css('opacity', '1');
+                                    });
+                                    $("#Arts1 .hexagon")
+                                    .on('mouseleave',function(event) {
+                                        $(this).find('img').css('opacity', '1')
+                                        $(this).find('i').css('opacity', '0');
+                                    });
+                        </script>
+                        <script type="text/javascript">
+                                $("#Fun .hexagon")
+                                    .on('mouseover',function(event) {
+                                        $(this).find('img').css('opacity', '.3')
+                                        $(this).find('i').css('opacity', '1');
+                                    });
+                                    $("#Fun .hexagon")
+                                    .on('mouseleave',function(event) {
+                                        $(this).find('img').css('opacity', '1')
+                                        $(this).find('i').css('opacity', '0');
+                                    });
+                        </script>
 
         <section id="about"></section><!-- aysel -->
         <section id="footer"></section><!-- aysel -->

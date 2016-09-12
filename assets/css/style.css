@@ -105,6 +105,100 @@
     width: 200px;
     height: 100px; }
 
+#Fun {
+  background-image: url("../images/footer_bg.png"); }
+  #Fun .hexa {
+    margin-top: 30px; }
+  #Fun .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Fun .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon i:hover {
+    color: black; }
+  #Fun .firstCol {
+    display: inline-block;
+    float: left;
+    margin-top: 50px; }
+  #Fun .secondCol {
+    display: inline-block;
+    float: right;
+    margin-top: -396px; }
+  #Fun .thirdCol {
+    display: inline-block;
+    float: left;
+    margin-left: 440px;
+    margin-top: -430px; }
+  #Fun .one {
+    background: red;
+    color: #F2A5BC; }
+  #Fun .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #Fun .three {
+    background: #9692C6;
+    color: #F2A5BC; }
+
+#Arts1 {
+  background-image: url("../images/footer_bg.png"); }
+  #Arts1 .hexa {
+    margin-top: 30px; }
+  #Arts1 .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Arts1 .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon i:hover {
+    color: black; }
+  #Arts1 .firstCol {
+    display: inline-block;
+    float: left; }
+  #Arts1 .one {
+    background: red;
+    color: #F2A5BC; }
+
 #PortfolioFour .container-fluid {
   background-color: #73D5F0;
   height: 105px; }
@@ -117,6 +211,87 @@
     padding-top: 35px;
     font-family: 'Bubblegum Sans', cursive;
     font-weight: normal; }
+
+#HexagonToggle {
+  background-image: url("../images/footer_bg.png");
+  background-color: #F0F3F3;
+  height: 90px; }
+  #HexagonToggle .button1 {
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: orange;
+    box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button2 {
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: red;
+    box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button3 {
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: green;
+    box-shadow: 0px 10px 5px #888888; }
+
+#Fun {
+  background-image: url("../images/footer_bg.png"); }
+  #Fun .hexa {
+    margin-top: 30px; }
+  #Fun .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Fun .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon i:hover {
+    color: black; }
+  #Fun .firstCol {
+    display: inline-block;
+    float: left;
+    margin-top: 50px; }
+  #Fun .secondCol {
+    display: inline-block;
+    float: right;
+    margin-top: -396px; }
+  #Fun .thirdCol {
+    display: inline-block;
+    float: left;
+    margin-left: 440px;
+    margin-top: -430px; }
+  #Fun .one {
+    background: red;
+    color: #F2A5BC; }
+  #Fun .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #Fun .three {
+    background: #9692C6;
+    color: #F2A5BC; }
 
 #portfolioHexa {
   min-height: 1100px;
@@ -243,6 +418,45 @@
     color: #F2A5BC; }
   #portfolioHexa .eight {
     background: purple;
+    color: #F2A5BC; }
+
+#Arts1 {
+  background-image: url("../images/footer_bg.png"); }
+  #Arts1 .hexa {
+    margin-top: 30px; }
+  #Arts1 .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Arts1 .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon i:hover {
+    color: black; }
+  #Arts1 .firstCol {
+    display: inline-block;
+    float: left; }
+  #Arts1 .one {
+    background: red;
     color: #F2A5BC; }
 
 /*# sourceMappingURL=style.css.map */
