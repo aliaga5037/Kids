@@ -223,22 +223,31 @@
     height: 60px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    background-color: orange;
+    background-color: #E6C262;
     box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button1:hover {
+    background-color: yellow;
+    transition: 1s; }
   #HexagonToggle .button2 {
     width: 200px;
     height: 60px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    background-color: red;
+    background-color: #7131AB;
     box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button2:hover {
+    background-color: #FEA59D;
+    transition: 1s; }
   #HexagonToggle .button3 {
     width: 200px;
     height: 60px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    background-color: green;
+    background-color: #5D7424;
     box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button3:hover {
+    background-color: #45CA97;
+    transition: 1s; }
 
 #Fun {
   background-image: url("../images/footer_bg.png");
