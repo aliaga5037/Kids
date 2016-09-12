@@ -64,15 +64,15 @@ $(document).ready(function($) {
 	// SLIDER2--------------------------------------
 	img=['assets/images/add1.jpg','assets/images/add2.jpg','assets/images/add1.jpg']
 
-	$("#slider2 .one")
+	$("#slider2 .circle1")
 	.on('click',function(event) {
 		$("#slider2 .tablet img").attr('src', img[0]);
 	});
-	$("#slider2 .two")
+	$("#slider2 .circle2")
 	.on('click',function(event) {
 		$("#slider2 .tablet img").attr('src', img[1]);
 	});
-	$("#slider2 .three")
+	$("#slider2 .circle3")
 	.on('click',function(event) {
 		$("#slider2 .tablet img").attr('src', img[2]);
 	});
