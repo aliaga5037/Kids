@@ -7,16 +7,185 @@
         <title></title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/awesome/css/font-awesome.css">
     </head>
     <body>
+            <script src="assets/js/jquery-3.1.0.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.js"></script>
+        <script src="assets/js/main.js"></script>
         
         <section id="header"></section><!-- aysel -->
-        <section></section><!-- leyla -->
+        <section id="PortfolioFour">
+            <div  class="container-fluid">
+                <div class="col-md-6 col-md-offset-1">
+                    <h2><b>Portfolio Four Column<b></h2>
+                </div>
+                <div class="col-md-4 ">
+                    <h6><a href="#">Home</a>  >>  Portfolio Four Column</h6>
+                </div>
+            </div>
+        </section>
+        <section id="portfolioHexa" class="col-md-12">
+            <div class="container ">
+                <div class="container text-center">
+                <div class="hexa">
+                    <div class="firstCol ">
+                        <div class="hexagon one ">
+                            <img src="assets/images/cartoon1.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="onetwoCol">
+                        <div class="hexagon through ">
+                            <img src="assets/images/cartoon2.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+            </div>
+            <div class="container text-center ">
+                <div class="hexa">
+                    <div class="secondCol  ">
+                        <div class="hexagon two ">
+                            <img src="assets/images/cartoon7.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+            </div>
+            <div class="container ">
+                <div class="container text-center ">
+                <div class="hexa">
+                    <div class="thirdCol  ">
+                        <div class="hexagon three">
+                            <img src="assets/images/cartoon2.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="threefourCol">
+                        <div class="hexagon through2 ">
+                            <img src="assets/images/cartoon4.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="fourthCol ">
+                        <div class="hexagon four">
+                            <img src="assets/images/cartoon3.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+            </div>
+            <div class="container ">
+                <div class="container text-center">
+                <div class="hexa">
+                    <div class="fifthCol">
+                        <div class="hexagon five">
+                            <img src="assets/images/cartoon4.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="fivesixCol ">
+                        <div class="hexagon through3">
+                            <img src="assets/images/cartoon3.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="sixthCol">
+                        <div class="hexagon six">
+                            <img src="assets/images/cartoon5.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>
+            </div>
+            <div class="container ">
+                <div class="container text-center">
+                <div class="hexa">
+                    <div class="seventhCol">
+                        <div class="hexagon seven ">
+                            <img src="assets/images/cartoon6.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div>    
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="seveneightCol ">
+                        <div class="hexagon through4">
+                            <img src="assets/images/cartoon1.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+            <div class="container text-center">
+                <div class="hexa">
+                    <div class="eightCol">
+                        <div class="hexagon eight ">
+                            <img src="assets/images/cartoon2.jpg">
+                            <i class="fa fa-link"></i>     
+                        </div>
+                        <h4>Arts & Craft</h4>
+                    </div>
+                </div>    
+            </div> 
+            </div>
+        </section><!-- leyla -->
+                        <script type="text/javascript">
+                                $("#portfolioHexa .hexagon")
+                                    .on('mouseover',function(event) {
+                                        $(this).find('img').css('opacity', '.3')
+                                        $(this).find('i').css('opacity', '1');
+                                    });
+                                    $("#portfolioHexa .hexagon")
+                                    .on('mouseleave',function(event) {
+                                        $(this).find('img').css('opacity', '1')
+                                        $(this).find('i').css('opacity', '0');
+                                    });
+                        </script>
+
+
         <section id="about"></section><!-- aysel -->
         <section id="footer"></section><!-- aysel -->
 
-        <script src="assets/js/jquery-3.1.0.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.js"></script>
-        <script src="assets/js/main.js"></script>
+
     </body>
 </html>

@@ -1,7 +1,33 @@
-#Our_Teachers{
-.green_title{
-	text-align:center; 
-	width:100%; 
-}
 
+#staffs{
+	min-height:565px;
+	background:#EFF3F4;
+	h2{
+		font-family: 'Bubblegum Sans', cursive;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.line{
+		display: block;
+		margin:0 auto;
+	}
+
+	.col-md-3{
+		margin-top: 50px;
+		h4{
+			font-family: 'Bubblegum Sans', cursive;
+			font-weight: bold;
+		}
+		span{
+			font-style: italic;
+			margin-top: 25px;
+		}
+		p{
+			margin-top: 30px;
+		}
+		
+	}
+	#sponsorSlide{
+
+	}
 }

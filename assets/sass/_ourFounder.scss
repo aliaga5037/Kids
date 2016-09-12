@@ -1,6 +1,6 @@
 
 #ourFounder{
-	background-color:#F0F3F3;
+	 background-image: url('../images/footer_bg.png');
 	.founderImg {
 	width: 116px;
 	height: 108px;
@@ -16,6 +16,9 @@ float:left;
 h2,h3{
 	font-family: 'Bubblegum Sans', cursive;
 font-weight: normal;
+}
+p:nth-child(2){
+	font-size:40px;
 }
 p{
 clear:both;
@@ -37,35 +40,11 @@ font-weight: normal;
 }
 
 }
-#staffs{
-	min-height:565px;
-	background:#EFF3F4;
-	h2{
-		font-family: 'Bubblegum Sans', cursive;
-		font-weight: bold;
-		margin-top: 60px;
-	}
-	.line{
-		display: block;
-		margin:0 auto;
-	}
-
-	.col-md-3{
-		margin-top: 50px;
-		h4{
-			font-family: 'Bubblegum Sans', cursive;
-			font-weight: bold;
-		}
-		span{
-			font-style: italic;
-			margin-top: 25px;
-		}
-		p{
-			margin-top: 30px;
-		}
-		
-	}
-	#sponsorSlide{
-
+#sponsors{
+	background-image:url('../images/header_bg.png');
+	img{
+		margin-right: 50px;
+		width: 200px;
+		height: 100px;
 	}
 }
