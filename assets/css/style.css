@@ -1,0 +1,534 @@
+#staffHexa {
+  background: #EFF3F4;
+  min-height: 565px; }
+  #staffHexa h4:hover {
+    color: #008C99; }
+  #staffHexa h6:hover {
+    color: #008C99; }
+  #staffHexa h2 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    margin-top: 60px; }
+  #staffHexa .line {
+    display: block;
+    margin: 0 auto; }
+  #staffHexa .hexa {
+    margin-top: 30px; }
+  #staffHexa .hexagon {
+    height: 259px;
+    overflow: hidden;
+    width: 287px;
+    z-index: 0;
+    -webkit-clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
+    clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%); }
+  #staffHexa .hexagon img {
+    height: 300px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #staffHexa .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  #staffHexa .hexagon i:hover {
+    color: black; }
+  #staffHexa .firstCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 50px; }
+  #staffHexa .onetwoCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 680px;
+    top: 149px; }
+  #staffHexa .secondCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 355px;
+    top: 149px; }
+  #staffHexa .thirdCol {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 30px; }
+  #staffHexa .one {
+    background: red;
+    color: #F2A5BC; }
+  #staffHexa .through {
+    background-color: yellow;
+    color: #F2A5BC; }
+  #staffHexa .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #staffHexa .three {
+    background: #9692C6;
+    color: #F2A5BC; }
+
+#leisureTime {
+  background-image: url("../images/header_bg.png");
+  height: 560px; }
+  #leisureTime .container-fluid {
+    background-color: #73D5F0;
+    height: 105px; }
+    #leisureTime .container-fluid h2 {
+      padding-top: 35px;
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: normal; }
+    #leisureTime .container-fluid h6 {
+      float: right;
+      padding-top: 35px;
+      font-family: 'Bubblegum Sans', cursive;
+      font-weight: normal; }
+  #leisureTime #sliderLeisure {
+    padding-top: 79px;
+    background-image: url("../images/footer_bg.png"); }
+  #leisureTime h2 {
+    margin-top: -2px;
+    margin-bottom: 21px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #leisureTime p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 31px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #leisureTime .btn {
+    width: 117px;
+    height: 44px;
+    border-radius: 1px;
+    background-color: #008C99;
+    color: white; }
+  #leisureTime .btn:hover {
+    background-color: #555555;
+    color: white;
+    transition: 1s; }
+  #leisureTime i {
+    border: 1 px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: #008C99; }
+  #leisureTime #slider {
+    float: right; }
+
+#ourFounder {
+  background-image: url("../images/footer_bg.png"); }
+  #ourFounder .founderImg {
+    width: 116px;
+    height: 108px;
+    background-image: url("../images/founder.jpg");
+    display: flex;
+    -webkit-clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%);
+    clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%); }
+  #ourFounder .founderImg {
+    float: left; }
+  #ourFounder h2, #ourFounder h3 {
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #ourFounder p:nth-child(2) {
+    font-size: 40px; }
+  #ourFounder p {
+    clear: both;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #ourFounder .boxx {
+    float: left;
+    padding-left: 25px; }
+  #ourFounder .col-md-8 p {
+    width: 550px;
+    height: 200px;
+    background-color: #008C99;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+
+#sponsors {
+  background-image: url("../images/header_bg.png"); }
+  #sponsors img {
+    margin-right: 50px;
+    width: 200px;
+    height: 100px; }
+
+#Fun {
+  background-image: url("../images/footer_bg.png");
+  background-color: #F0F3F3; }
+  #Fun .hexa {
+    margin-top: 30px; }
+  #Fun .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Fun .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon i:hover {
+    color: black; }
+  #Fun .firstCol {
+    display: inline-block;
+    float: left;
+    margin-top: 50px; }
+  #Fun .secondCol {
+    display: inline-block;
+    float: right;
+    margin-top: -396px; }
+  #Fun .thirdCol {
+    display: inline-block;
+    float: left;
+    margin-left: 440px;
+    margin-top: -430px; }
+  #Fun .one {
+    background: red;
+    color: #F2A5BC; }
+  #Fun .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #Fun .three {
+    background: #9692C6;
+    color: #F2A5BC; }
+
+#Arts1 {
+  background-image: url("../images/footer_bg.png");
+  background-color: #F0F3F3; }
+  #Arts1 .hexa {
+    margin-top: 30px; }
+  #Arts1 .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Arts1 .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon i:hover {
+    color: black; }
+  #Arts1 .firstCol {
+    display: inline-block;
+    float: left; }
+  #Arts1 .one {
+    background: red;
+    color: #F2A5BC; }
+
+#PortfolioFour .container-fluid {
+  background-color: #73D5F0;
+  height: 105px; }
+  #PortfolioFour .container-fluid h2 {
+    padding-top: 15px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+  #PortfolioFour .container-fluid h6 {
+    float: right;
+    padding-top: 35px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: normal; }
+
+#HexagonToggle {
+  background-image: url("../images/footer_bg.png");
+  background-color: #F0F3F3;
+  height: 90px; }
+  #HexagonToggle .button1 {
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: #E6C262;
+    box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button1:hover {
+    background-color: yellow;
+    transition: 1s; }
+  #HexagonToggle .button2 {
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: #7131AB;
+    box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button2:hover {
+    background-color: #FEA59D;
+    transition: 1s; }
+  #HexagonToggle .button3 {
+    width: 200px;
+    height: 60px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: #5D7424;
+    box-shadow: 0px 10px 5px #888888; }
+  #HexagonToggle .button3:hover {
+    background-color: #45CA97;
+    transition: 1s; }
+
+#Fun {
+  background-image: url("../images/footer_bg.png");
+  background-color: #F0F3F3; }
+  #Fun .hexa {
+    margin-top: 30px; }
+  #Fun .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Fun .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Fun .hexagon i:hover {
+    color: black; }
+  #Fun .firstCol {
+    display: inline-block;
+    float: left;
+    margin-top: 50px; }
+  #Fun .secondCol {
+    display: inline-block;
+    float: right;
+    margin-top: -396px; }
+  #Fun .thirdCol {
+    display: inline-block;
+    float: left;
+    margin-left: 440px;
+    margin-top: -430px; }
+  #Fun .one {
+    background: red;
+    color: #F2A5BC; }
+  #Fun .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #Fun .three {
+    background: #9692C6;
+    color: #F2A5BC; }
+
+#portfolioHexa {
+  min-height: 1100px;
+  background: #F0F3F3;
+  overflow: hidden;
+  background-image: url("../images/footer_bg.png"); }
+  #portfolioHexa .hexa {
+    margin-top: 30px; }
+  #portfolioHexa .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #portfolioHexa .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #portfolioHexa .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #portfolioHexa .hexagon i:hover {
+    color: black; }
+  #portfolioHexa .firstCol {
+    display: inline-block;
+    float: left; }
+  #portfolioHexa .onetwoCol {
+    display: inline-block;
+    float: left;
+    margin-top: -400px;
+    position: absolute;
+    right: 500px; }
+  #portfolioHexa .secondCol {
+    display: inline-block;
+    float: right;
+    margin-top: -430px; }
+  #portfolioHexa .thirdCol {
+    display: inline-block;
+    float: right;
+    margin-top: 12px; }
+  #portfolioHexa .threefourCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 500px;
+    top: 520px; }
+  #portfolioHexa .fourthCol {
+    display: inline-block;
+    float: left;
+    margin-top: -397px; }
+  #portfolioHexa .fifthCol {
+    display: inline-block;
+    float: right;
+    margin-top: 15px; }
+  #portfolioHexa .fivesixCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 500px;
+    top: 990px; }
+  #portfolioHexa .sixthCol {
+    display: inline-block;
+    float: left;
+    margin-top: -400px; }
+  #portfolioHexa .seventhCol {
+    display: inline-block;
+    float: left;
+    margin-top: 20px; }
+  #portfolioHexa .seveneightCol {
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 500px;
+    top: 1460px; }
+  #portfolioHexa .eightCol {
+    display: inline-block;
+    float: right;
+    margin-top: -400px; }
+  #portfolioHexa .one {
+    background: red;
+    color: #F2A5BC; }
+  #portfolioHexa .through {
+    background: blue;
+    color: #F2A5BC; }
+  #portfolioHexa .two {
+    background: #F2A5BC;
+    color: #F2A5BC; }
+  #portfolioHexa .three {
+    background: #9692C6;
+    color: #F2A5BC; }
+  #portfolioHexa .through2 {
+    background: yellow;
+    color: #F2A5BC; }
+  #portfolioHexa .four {
+    background: #D492C6;
+    color: #F2A5BC; }
+  #portfolioHexa .five {
+    background: red;
+    color: #F2A5BC; }
+  #portfolioHexa .through3 {
+    background: orange;
+    color: #F2A5BC; }
+  #portfolioHexa .six {
+    background: #FF7C0D;
+    color: #F2A5BC; }
+  #portfolioHexa .seven {
+    background: #33DC73;
+    color: #F2A5BC; }
+  #portfolioHexa .through4 {
+    background: orange;
+    color: #F2A5BC; }
+  #portfolioHexa .eight {
+    background: purple;
+    color: #F2A5BC; }
+
+#Arts1 {
+  background-image: url("../images/footer_bg.png");
+  background-color: #F0F3F3; }
+  #Arts1 .hexa {
+    margin-top: 30px; }
+  #Arts1 .hexagon {
+    height: 330px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 0;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon img {
+    height: 330px;
+    width: 100%;
+    transition: all .4s ease;
+    overflow: hidden; }
+  #Arts1 .hexagon i {
+    opacity: 0;
+    display: block;
+    margin: auto;
+    margin-top: -187px;
+    font-size: 40px;
+    width: 70px;
+    height: 60px;
+    background: white;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  #Arts1 .hexagon i:hover {
+    color: black; }
+  #Arts1 .firstCol {
+    display: inline-block;
+    float: left; }
+  #Arts1 .one {
+    background: red;
+    color: #F2A5BC; }
+
+/*# sourceMappingURL=style.css.map */
