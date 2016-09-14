@@ -66,7 +66,7 @@ function slider() {
 		count--;
 		if (count == 0) {
 			
-			count=imgs.length;
+			count=imgs.length ;
 		}
 		$('.frame')
 			.css({

@@ -21,24 +21,25 @@ h2{
     margin-top: 30px;
  }
 .hexagon {
-    height: 259px;
+    height: 229px;
     overflow: hidden;
-    width: 287px;
+    width: 227px;
     z-index: 0;
--webkit-clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
-clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
+-webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
   }
   .hexagon img {
       height: 300px;
       width: 100%;
       transition: all .4s ease;
       overflow: hidden; 
+
     }
     .hexagon i {
       opacity: 0;
       display: block;
       margin: auto;
-      margin-top: -187px;
+      margin-top: -210px;
       font-size: 40px;
       width: 70px;
       height: 60px;
@@ -46,8 +47,8 @@ clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 1
       padding-top: 14px;
       cursor: pointer;
       transition: all .4s ease;
--webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+-webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
   }
     .hexagon i:hover {
         color: black; 
@@ -63,7 +64,7 @@ display: inline-block;
 display: inline-block;
    float: left;
    position: absolute;
-   right: 680px;
+   right: 670px;
    top: 149px;
   }
  .secondCol {

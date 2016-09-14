@@ -15,12 +15,12 @@
   #staffHexa .hexa {
     margin-top: 30px; }
   #staffHexa .hexagon {
-    height: 259px;
+    height: 229px;
     overflow: hidden;
-    width: 287px;
+    width: 227px;
     z-index: 0;
-    -webkit-clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%);
-    clip-path: polygon(48% 17%, 78% 17%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 21% 18%); }
+    -webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+    clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%); }
   #staffHexa .hexagon img {
     height: 300px;
     width: 100%;
@@ -30,7 +30,7 @@
     opacity: 0;
     display: block;
     margin: auto;
-    margin-top: -187px;
+    margin-top: -210px;
     font-size: 40px;
     width: 70px;
     height: 60px;
@@ -38,8 +38,8 @@
     padding-top: 14px;
     cursor: pointer;
     transition: all .4s ease;
-    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+    -webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
+    clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%); }
   #staffHexa .hexagon i:hover {
     color: black; }
   #staffHexa .firstCol {
@@ -51,7 +51,7 @@
     display: inline-block;
     float: left;
     position: absolute;
-    right: 680px;
+    right: 670px;
     top: 149px; }
   #staffHexa .secondCol {
     display: inline-block;
@@ -93,6 +93,8 @@
       padding-top: 35px;
       font-family: 'Bubblegum Sans', cursive;
       font-weight: normal; }
+    #leisureTime .container-fluid .clearBoth {
+      clear: both; }
   #leisureTime #sliderLeisure {
     padding-top: 79px;
     background-image: url("../images/footer_bg.png"); }
@@ -128,10 +130,6 @@
 #ourFounder {
   background-image: url("../images/footer_bg.png"); }
   #ourFounder .founderImg {
-    width: 116px;
-    height: 108px;
-    background-image: url("../images/founder.jpg");
-    display: flex;
     -webkit-clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%);
     clip-path: polygon(23% 3%, 78% 3%, 100% 48%, 80% 94%, 20% 94%, 0 48%); }
   #ourFounder .founderImg {
@@ -148,9 +146,9 @@
   #ourFounder .boxx {
     float: left;
     padding-left: 25px; }
-  #ourFounder .col-md-8 p {
-    width: 550px;
+  #ourFounder .col-md-12 p {
     height: 200px;
+    overflow: scroll;
     background-color: #008C99;
     border-radius: 15px;
     color: white;
