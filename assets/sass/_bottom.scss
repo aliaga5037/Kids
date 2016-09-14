@@ -1,0 +1,38 @@
+#about {
+	.brd{
+		--border:1px solid black;
+	}
+	.image_wrapper{
+		width: 100%;
+			img {
+				width: 100%;
+			}
+	}	
+	
+	
+	
+		.col_wrapper{
+
+			--border:1px solid black;
+			p{
+			padding: 20px 5px;
+			font-weight: bold;font-size:20px;
+			}
+			input{
+				--display: inline-block;
+				border-radius: 10px 0 0 10px;
+				height: 45px;
+			}
+			button{
+				border: 1px solid #008C99;
+				margin-left: -5px;
+				height: 45px;
+				width: 90px;
+				border-radius:0 10px 10px 0;
+				background: #008C99;
+				color:white;
+			}
+		
+				
+	}
+}

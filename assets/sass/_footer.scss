@@ -1,0 +1,31 @@
+#footer{
+	background: #008C99;
+	margin-top: 20px;
+	p{
+		color:white;
+		font-weight: bold;
+	}
+	.marginTop{
+		margin-top: 20px;
+	}
+	.follow{
+		float: right;
+		ul{
+			list-style-type: none;
+			li{
+				display: inline-block;
+				p{
+					color:white;
+					padding-right:50px;	
+				}
+				a{
+					text-decoration: none;
+					color:white;
+					padding:20px;
+				}
+			}
+		}
+	}
+
+}
+
