@@ -1,5 +1,8 @@
 @import "fun.scss";
 @import "Arts1.scss";
+html,body{
+  overflow-x: hidden;
+}
 #PortfolioFour{
   .container-fluid {
 background-color: #73D5F0;
@@ -28,43 +31,42 @@ font-weight: normal;
    height: auto;
    .button1{
     border:none;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-background-color:#E6C262;
+background-color:#DF9B00;
 box-shadow:0px 10px 5px #888888;
    }
    .button1:hover{
-    background-color:yellow;
+    background-color:#CF571B;
     transition: 1s;
-    
    } 
 
       .button2{
     border:none;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-background-color:#7131AB;
+background-color:#DF9B00;
 box-shadow:0px 10px 5px #888888;
    }
       .button2:hover{
-    background-color:#FEA59D;
+    background-color:#CF571B;
     transition: 1s;
    } 
          .button3{
     border:none;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-background-color:#5D7424;
+background-color:#DF9B00;
 box-shadow:0px 10px 5px #888888;
    }
       .button3:hover{
-    background-color:#45CA97;
+    background-color:#CF571B;
     transition: 1s;
    } 
 }

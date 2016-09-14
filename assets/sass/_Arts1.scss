@@ -1,17 +1,20 @@
  #Arts1 {
     background-image: url('../images/footer_bg.png');
     background-color: #F0F3F3;
+    min-height: 1100px;
 
 .hexa {
     margin-top: 30px;
  }
 .hexagon {
-    height: 330px;
+    height: 250px;
     overflow: hidden;
-    width: 330px;
+    display: inline-block;
+    float: left;
+    width: 250px;
     z-index: 0;
--webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
   }
   .hexagon img {
       height: 330px;
@@ -19,11 +22,18 @@ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 9
       transition: all .4s ease;
       overflow: hidden; 
     }
+    .margin{
+      margin-top: 40px;
+    }
+   .marginLeft{
+    margin-left: 30px;
+   }
     .hexagon i {
       opacity: 0;
       display: block;
       margin: auto;
-      margin-top: -187px;
+      margin-top: -237px;
+      padding-left:14px;
       font-size: 40px;
       width: 70px;
       height: 60px;
@@ -31,17 +41,12 @@ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 9
       padding-top: 14px;
       cursor: pointer;
       transition: all .4s ease;
--webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
     }
     .hexagon i:hover {
         color: black; 
       }
-
-      .firstCol { 
-display: inline-block;
-   float: left;
-  }
 
   .one {
     background: red;

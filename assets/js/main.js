@@ -188,3 +188,5 @@ function slider() {
   });
 
 })(jQuery); 
+
+           

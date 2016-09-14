@@ -45,18 +45,6 @@
     clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%); }
   #staffHexa .hexagon i:hover {
     color: black; }
-  #staffHexa .firstCol {
-    display: inline-block;
-    float: left; }
-  #staffHexa .onetwoCol {
-    display: inline-block;
-    float: left; }
-  #staffHexa .secondCol {
-    display: inline-block;
-    float: left; }
-  #staffHexa .thirdCol {
-    display: inline-block;
-    float: right; }
   #staffHexa .col-md-3 {
     float: left; }
   #staffHexa .one {
@@ -158,16 +146,19 @@
 
 #Fun {
   background-image: url("../images/footer_bg.png");
-  background-color: #F0F3F3; }
+  background-color: #F0F3F3;
+  min-height: 1100px; }
   #Fun .hexa {
     margin-top: 30px; }
   #Fun .hexagon {
-    height: 330px;
+    height: 250px;
     overflow: hidden;
-    width: 330px;
+    display: inline-block;
+    float: left;
+    width: 250px;
     z-index: 0;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Fun .hexagon img {
     height: 330px;
     width: 100%;
@@ -177,7 +168,8 @@
     opacity: 0;
     display: block;
     margin: auto;
-    margin-top: -187px;
+    margin-top: -237px;
+    padding-left: 14px;
     font-size: 40px;
     width: 70px;
     height: 60px;
@@ -185,28 +177,24 @@
     padding-top: 14px;
     cursor: pointer;
     transition: all .4s ease;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Fun .hexagon i:hover {
     color: black; }
-  #Fun .firstCol {
-    display: inline-block;
-    float: left;
-    margin-top: 50px; }
-  #Fun .secondCol {
-    display: inline-block;
-    float: right;
-    margin-top: -396px; }
-  #Fun .thirdCol {
-    display: inline-block;
-    float: left;
-    margin-left: 440px;
-    margin-top: -430px; }
+  #Fun .hexagon i:hover {
+    color: black; }
+  #Fun .margin {
+    margin-top: 40px; }
+  #Fun .marginLeft {
+    margin-left: 30px; }
   #Fun .one {
-    background: red;
+    background: yellow;
+    color: #F2A5BC; }
+  #Fun .eight {
+    background: blue;
     color: #F2A5BC; }
   #Fun .two {
-    background: #F2A5BC;
+    background: red;
     color: #F2A5BC; }
   #Fun .three {
     background: #9692C6;
@@ -214,26 +202,34 @@
 
 #Arts1 {
   background-image: url("../images/footer_bg.png");
-  background-color: #F0F3F3; }
+  background-color: #F0F3F3;
+  min-height: 1100px; }
   #Arts1 .hexa {
     margin-top: 30px; }
   #Arts1 .hexagon {
-    height: 330px;
+    height: 250px;
     overflow: hidden;
-    width: 330px;
+    display: inline-block;
+    float: left;
+    width: 250px;
     z-index: 0;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Arts1 .hexagon img {
     height: 330px;
     width: 100%;
     transition: all .4s ease;
     overflow: hidden; }
+  #Arts1 .margin {
+    margin-top: 40px; }
+  #Arts1 .marginLeft {
+    margin-left: 30px; }
   #Arts1 .hexagon i {
     opacity: 0;
     display: block;
     margin: auto;
-    margin-top: -187px;
+    margin-top: -237px;
+    padding-left: 14px;
     font-size: 40px;
     width: 70px;
     height: 60px;
@@ -241,16 +237,16 @@
     padding-top: 14px;
     cursor: pointer;
     transition: all .4s ease;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Arts1 .hexagon i:hover {
     color: black; }
-  #Arts1 .firstCol {
-    display: inline-block;
-    float: left; }
   #Arts1 .one {
     background: red;
     color: #F2A5BC; }
+
+html, body {
+  overflow-x: hidden; }
 
 #PortfolioFour .container-fluid {
   background-color: #73D5F0;
@@ -271,50 +267,53 @@
   height: auto; }
   #HexagonToggle .button1 {
     border: none;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    background-color: #E6C262;
+    background-color: #DF9B00;
     box-shadow: 0px 10px 5px #888888; }
   #HexagonToggle .button1:hover {
-    background-color: yellow;
+    background-color: #CF571B;
     transition: 1s; }
   #HexagonToggle .button2 {
     border: none;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    background-color: #7131AB;
+    background-color: #DF9B00;
     box-shadow: 0px 10px 5px #888888; }
   #HexagonToggle .button2:hover {
-    background-color: #FEA59D;
+    background-color: #CF571B;
     transition: 1s; }
   #HexagonToggle .button3 {
     border: none;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    background-color: #5D7424;
+    background-color: #DF9B00;
     box-shadow: 0px 10px 5px #888888; }
   #HexagonToggle .button3:hover {
-    background-color: #45CA97;
+    background-color: #CF571B;
     transition: 1s; }
 
 #Fun {
   background-image: url("../images/footer_bg.png");
-  background-color: #F0F3F3; }
+  background-color: #F0F3F3;
+  min-height: 1100px; }
   #Fun .hexa {
     margin-top: 30px; }
   #Fun .hexagon {
-    height: 330px;
+    height: 250px;
     overflow: hidden;
-    width: 330px;
+    display: inline-block;
+    float: left;
+    width: 250px;
     z-index: 0;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Fun .hexagon img {
     height: 330px;
     width: 100%;
@@ -324,7 +323,8 @@
     opacity: 0;
     display: block;
     margin: auto;
-    margin-top: -187px;
+    margin-top: -237px;
+    padding-left: 14px;
     font-size: 40px;
     width: 70px;
     height: 60px;
@@ -332,28 +332,24 @@
     padding-top: 14px;
     cursor: pointer;
     transition: all .4s ease;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Fun .hexagon i:hover {
     color: black; }
-  #Fun .firstCol {
-    display: inline-block;
-    float: left;
-    margin-top: 50px; }
-  #Fun .secondCol {
-    display: inline-block;
-    float: right;
-    margin-top: -396px; }
-  #Fun .thirdCol {
-    display: inline-block;
-    float: left;
-    margin-left: 440px;
-    margin-top: -430px; }
+  #Fun .hexagon i:hover {
+    color: black; }
+  #Fun .margin {
+    margin-top: 40px; }
+  #Fun .marginLeft {
+    margin-left: 30px; }
   #Fun .one {
-    background: red;
+    background: yellow;
+    color: #F2A5BC; }
+  #Fun .eight {
+    background: blue;
     color: #F2A5BC; }
   #Fun .two {
-    background: #F2A5BC;
+    background: red;
     color: #F2A5BC; }
   #Fun .three {
     background: #9692C6;
@@ -383,16 +379,21 @@
     width: 100%;
     transition: all .4s ease;
     overflow: hidden; }
+  #portfolioHexa .margin {
+    margin-top: 40px; }
+  #portfolioHexa .marginLeft {
+    margin-left: 30px; }
   #portfolioHexa .hexagon i {
     opacity: 0;
     display: block;
     margin: auto;
     margin-top: -237px;
+    padding-left: 12px;
     font-size: 40px;
-    width: 70px;
-    height: 60px;
+    width: 60px;
+    height: 55px;
     background: white;
-    padding-top: 14px;
+    padding-top: 13px;
     cursor: pointer;
     transition: all .4s ease;
     -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
@@ -415,7 +416,7 @@
     background: #D492C6;
     color: #F2A5BC; }
   #portfolioHexa .five {
-    background: red;
+    background: yellow;
     color: #F2A5BC; }
   #portfolioHexa .six {
     background: #FF7C0D;
@@ -429,26 +430,34 @@
 
 #Arts1 {
   background-image: url("../images/footer_bg.png");
-  background-color: #F0F3F3; }
+  background-color: #F0F3F3;
+  min-height: 1100px; }
   #Arts1 .hexa {
     margin-top: 30px; }
   #Arts1 .hexagon {
-    height: 330px;
+    height: 250px;
     overflow: hidden;
-    width: 330px;
+    display: inline-block;
+    float: left;
+    width: 250px;
     z-index: 0;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Arts1 .hexagon img {
     height: 330px;
     width: 100%;
     transition: all .4s ease;
     overflow: hidden; }
+  #Arts1 .margin {
+    margin-top: 40px; }
+  #Arts1 .marginLeft {
+    margin-left: 30px; }
   #Arts1 .hexagon i {
     opacity: 0;
     display: block;
     margin: auto;
-    margin-top: -187px;
+    margin-top: -237px;
+    padding-left: 14px;
     font-size: 40px;
     width: 70px;
     height: 60px;
@@ -456,13 +465,10 @@
     padding-top: 14px;
     cursor: pointer;
     transition: all .4s ease;
-    -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+    clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%); }
   #Arts1 .hexagon i:hover {
     color: black; }
-  #Arts1 .firstCol {
-    display: inline-block;
-    float: left; }
   #Arts1 .one {
     background: red;
     color: #F2A5BC; }
