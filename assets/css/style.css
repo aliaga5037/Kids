@@ -1,3 +1,6 @@
+.box {
+  border: 1px solid red; }
+
 #staffHexa {
   background: #EFF3F4;
   min-height: 565px; }
@@ -17,7 +20,7 @@
   #staffHexa .hexagon {
     height: 229px;
     overflow: hidden;
-    width: 227px;
+    width: 100%;
     z-index: 0;
     -webkit-clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%);
     clip-path: polygon(50% 0%, 95% 22%, 95% 75%, 50% 100%, 6% 75%, 6% 22%); }
@@ -44,27 +47,18 @@
     color: black; }
   #staffHexa .firstCol {
     display: inline-block;
-    float: left;
-    position: absolute;
-    left: 50px; }
+    float: left; }
   #staffHexa .onetwoCol {
     display: inline-block;
-    float: left;
-    position: absolute;
-    right: 670px;
-    top: 149px; }
+    float: left; }
   #staffHexa .secondCol {
     display: inline-block;
-    float: left;
-    position: absolute;
-    right: 355px;
-    top: 149px; }
+    float: left; }
   #staffHexa .thirdCol {
     display: inline-block;
-    float: right;
-    position: absolute;
-    top: 150px;
-    right: 30px; }
+    float: right; }
+  #staffHexa .col-md-3 {
+    float: left; }
   #staffHexa .one {
     background: red;
     color: #F2A5BC; }
@@ -148,7 +142,7 @@
     padding-left: 25px; }
   #ourFounder .col-md-12 p {
     height: 200px;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: #008C99;
     border-radius: 15px;
     color: white;
