@@ -25,8 +25,9 @@ font-weight: normal;
 #HexagonToggle{
    background-image: url('../images/footer_bg.png');
    background-color:#F0F3F3;
-   height: 90px;
+   height: auto;
    .button1{
+    border:none;
     width: 200px;
     height: 60px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -37,9 +38,11 @@ box-shadow:0px 10px 5px #888888;
    .button1:hover{
     background-color:yellow;
     transition: 1s;
+    
    } 
 
       .button2{
+    border:none;
     width: 200px;
     height: 60px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -52,6 +55,7 @@ box-shadow:0px 10px 5px #888888;
     transition: 1s;
    } 
          .button3{
+    border:none;
     width: 200px;
     height: 60px;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
